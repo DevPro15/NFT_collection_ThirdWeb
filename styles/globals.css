@@ -19,6 +19,39 @@ html {
   color-scheme: dark;
 }
 body {
-  color: #e7e8e8;
-  background: #0f1318;
+  color: #e7e8e8 !important;
+  background: #0f1318 !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.header-image {
+  margin-left: 40%;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.thirdweb {
+  height: 100px;
+  width: 100px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 2rem;
+  background-color: rgb(37, 36, 36);
+  margin-right: 20px;
 }
